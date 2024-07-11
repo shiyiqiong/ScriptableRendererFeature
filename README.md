@@ -1,11 +1,12 @@
-版本：Unity 2022.3.17f1c1。
+项目版本：Unity 2022.3.17f1c1。
 ***
-自定义体积组件：BlurVolumeComponent.cs
-自定义渲染器功能：BlurRendererFeature.cs
-自定义渲染通道：BlurRenderPass.cs
-自定义着色器：Blur.shader
+代码实现：
+- 自定义体积组件：BlurVolumeComponent.cs
+- 自定义渲染器功能：BlurRendererFeature.cs
+- 自定义渲染通道：BlurRenderPass.cs
+- 自定义着色器：Blur.shader
 ***
-流程：
+运行流程：
 - 场景添加体积对象；
 - 体积对象组件中添加自定义体积；
 - 设置自定义体积参数；
